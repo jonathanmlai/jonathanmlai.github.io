@@ -2605,7 +2605,6 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35vw;
-		max-width: 35vw;
 	}
 
 		#header > * {
