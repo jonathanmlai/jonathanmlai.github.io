@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700");
 
 /*
 	Strata by HTML5 UP
@@ -2707,6 +2707,27 @@ input, select, textarea {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+			}
+
+			#main #four {
+				padding: 2em 4em 4em 4em !important;
+			}
+
+			#main #banner {
+				position: relative;
+			}
+
+			#main #bannertext h1 {
+				font-weight: bold;
+				font-size: 3em;
+				line-height: 1em;
+			}
+			
+			#main #bannertext{
+				position: absolute;
+				top: 50%;
+				left: 25%;
+				transform: translate(-50%, -50%);
 			}
 
 /* Poptrox
